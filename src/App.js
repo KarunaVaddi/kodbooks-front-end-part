@@ -1,9 +1,9 @@
-import SignUp from "./pages/signUp";
+import { Outlet } from "react-router-dom";
+
 function App() {
   return (
-    <div className="App">
-      <h1>KodBook</h1>
-      <SignUp />
+    <div>
+       <Outlet />
     </div>
   );
 }
